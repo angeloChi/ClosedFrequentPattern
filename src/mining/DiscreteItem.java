@@ -11,6 +11,8 @@ public class DiscreteItem extends Item {
 	}
 	
 	boolean checkItemCondition(Object value){
+		//verifica che l'item corrente ha valore uguale a Value
+		//per la coppia <Attributo discreto- Value discreto >
 		if (this.value == value)
 			return true;
 		else 

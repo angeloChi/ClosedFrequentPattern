@@ -61,8 +61,19 @@ public class FrequentPatternMiner {
 	}
 	
 	// Aggiorna il supporto
+	
 	static float computeSupport(Data data,FrequentPattern FP){
-		
+		DiscreteItem app = new DiscreteItem(null,null);
+		Attribute attr = new Attribute();
+		Object val = new Object();
+		for(int i=0;i<FP.getPatternLength();i++){
+				app = (DiscreteItem)FP.getItem(i);
+				attr = app.getAttribute();
+				val = app.getValue();
+				for(int j=0;j<data.getNumberOfExamples();j++){
+					if(data.getAttributeValue(j,))
+				}
+		}
 		
 	}
 	

@@ -6,7 +6,7 @@ public class Attribute {
 	protected int index; // identificativo numerico dell'attributo
 	
 	
-	Attribute(){
+	public Attribute(){
 		
 	}
 	
